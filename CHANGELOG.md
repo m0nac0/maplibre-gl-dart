@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.2 (2022-06-24)
+
+* First release after the fork and adaption for Maplibre GL JS. Includes renaming of the package to maplibre_gl_dart
+
 ## 0.2.1 (2021-11-09)
 
 * Feature id as dynamic - Add promoteId to GeoJsonSource - update to mapbox-gl-js v2.5.1 [#16](https://github.com/andrea689/mapbox-gl-dart/pull/16)
