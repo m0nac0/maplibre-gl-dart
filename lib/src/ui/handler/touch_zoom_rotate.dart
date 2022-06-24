@@ -2,7 +2,7 @@ library mapboxgl.ui.handler.touch_zoom_rotate;
 
 import 'dart:html';
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class TouchZoomRotateHandler
     extends JsObjectWrapper<TouchZoomRotateHandlerJsImpl> {

@@ -1,6 +1,6 @@
 import 'dart:html';
 
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
 
 late Marker marker;
 late HtmlElement coordinates;

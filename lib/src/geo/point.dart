@@ -1,6 +1,6 @@
 library mapboxgl.geo.point;
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class Point extends JsObjectWrapper<PointJsImpl> {
   num get x => jsObject.x;

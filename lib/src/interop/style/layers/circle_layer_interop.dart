@@ -1,7 +1,7 @@
 library mapboxgl.interop.style.layers.circle_layer;
 
 import 'package:js/js_util.dart';
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
 
 class CircleLayerJsImpl {
   static toJs(CircleLayer circleLayer) => jsify(toDict(circleLayer));

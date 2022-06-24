@@ -1,7 +1,7 @@
 library mapboxgl.ui.control.navigation_control;
 
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class NavigationControlOptions
     extends JsObjectWrapper<NavigationControlOptionsJsImpl> {

@@ -1,7 +1,7 @@
 library mapboxgl.interop.style.layers.line_layer;
 
 import 'package:js/js_util.dart';
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
 
 class LineLayerJsImpl {
   static toJs(LineLayer lineLayer) => jsify(toDict(lineLayer));

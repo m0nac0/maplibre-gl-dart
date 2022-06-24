@@ -2,7 +2,7 @@ library mapboxgl.ui.handler.drag_rotate;
 
 import 'dart:html';
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class DragRotateHandler extends JsObjectWrapper<DragRotateHandlerJsImpl> {
   ///  Returns a Boolean indicating whether the "drag to rotate" interaction is enabled.

@@ -1,7 +1,7 @@
 library mapboxgl.style.sources.vector_source;
 
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class VectorSource extends Source<VectorSourceJsImpl> {
   String? get url => jsObject.url;

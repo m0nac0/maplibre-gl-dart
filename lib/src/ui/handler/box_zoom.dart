@@ -2,7 +2,7 @@ library mapboxgl.ui.handler.box_zoom;
 
 import 'dart:html';
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class BoxZoomHandler extends JsObjectWrapper<BoxZoomHandlerJsImpl> {
   ///  Returns a Boolean indicating whether the "box zoom" interaction is enabled.
