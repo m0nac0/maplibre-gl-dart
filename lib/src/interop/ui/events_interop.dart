@@ -1,4 +1,4 @@
-@JS('mapboxgl')
+@JS('maplibregl')
 library mapboxgl.interop.ui.events;
 
 import 'dart:html';

@@ -1,4 +1,4 @@
-@JS('mapboxgl')
+@JS('maplibregl')
 library mapboxgl.interop.ui.control.geolocate_control;
 
 import 'package:js/js.dart';

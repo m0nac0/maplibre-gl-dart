@@ -3,7 +3,7 @@ library mapboxgl.base;
 
 import 'package:js/js.dart';
 
-@JS('mapboxgl')
+@JS('maplibregl')
 abstract class Mapbox {
   ///  Gets and sets the map's [access token](https://www.mapbox.com/help/define-access-token/).
   ///

@@ -1,4 +1,4 @@
-@JS('mapboxgl')
+@JS('maplibregl')@JS('maplibregl')
 library mapboxgl.interop.geo.geojson;
 
 import 'package:js/js.dart';

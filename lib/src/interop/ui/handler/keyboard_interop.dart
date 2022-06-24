@@ -1,4 +1,4 @@
-@JS('mapboxgl')
+@JS('maplibregl')
 library mapboxgl.interop.ui.handler.keyboard;
 
 import 'package:js/js.dart';

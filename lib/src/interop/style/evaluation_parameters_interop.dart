@@ -1,4 +1,4 @@
-@JS('mapboxgl')
+@JS('maplibregl')
 library mapboxgl.interop.style.evaluation_parameters;
 
 import 'package:js/js.dart';

@@ -1,4 +1,4 @@
-@JS('mapboxgl')
+@JS('maplibregl')
 library mapboxgl.interop.ui.handler.dbclick_zoom;
 
 import 'package:js/js.dart';

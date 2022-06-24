@@ -1,4 +1,4 @@
-@JS('mapboxgl')
+@JS('maplibregl')
 library mapboxgl.interop.geo.lng_lat;
 
 import 'package:js/js.dart';
