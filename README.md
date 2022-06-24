@@ -1,47 +1,23 @@
 # Mapbox-gl wrapper for Dart
 
-Library to use Mapbox GL JS from Dart. Working examples here: https://andrea689.github.io/mapbox-gl-dart/
+Library to use Maplibre GL JS from Dart.
+
+Forked from https://github.com/andrea689/mapbox-gl-dart and slightly adapted for the use with Maplibre. 
+
+Thank you for your great work @andrea689!
+
 
 ## Using this package
 
-You must include [Mapbox GL JS](https://github.com/mapbox/mapbox-gl-js) into your `.html` file
+You must include [Maplibre GL JS](https://github.com/maplibre/maplibre-gl-js) into your `.html` file
 to be able to use this package.
 
 ```html
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.5.1mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.5.1/mapbox-gl.css' rel='stylesheet'/>
+<script src="https://cdn.maptiler.com/maplibre-gl-js/v2.2.0-pre.2/maplibre-gl.js"></script>
+<link href="https://cdn.maptiler.com/maplibre-gl-js/v2.2.0-pre.2/maplibre-gl.css" rel="stylesheet" />
 ```
 
-In the body add a container for the map.
 
-```html
-<body>
-    <div id='map'></div>
-</body>
-```
-
-In the dart file initialize the map.
-
-```dart
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart' as mapboxgl;
-
-void main() {
-  Mapbox.accessToken = 'YOUR_TOKEN_HERE';
-
-  var map = MapboxMap(
-    MapOptions(
-      container: 'map',
-      style: 'mapbox://styles/mapbox/dark-v10',
-      center: LngLat(7.68227, 45.06755),
-      zoom: 12,
-    ),
-  );
-}
-```
-
-## Examples
-
-You can find many examples in the [example](example) folder.
 
 ## Run example
 
