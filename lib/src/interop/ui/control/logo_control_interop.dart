@@ -2,7 +2,7 @@
 library mapboxgl.interop.ui.control.logo_control;
 
 import 'package:js/js.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 /// A `LogoControl` is a control that adds the Mapbox watermark
 /// to the map as required by the [terms of service](https://www.mapbox.com/tos/) for Mapbox

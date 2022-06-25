@@ -1,8 +1,8 @@
 library mapboxgl.ui.camera;
 
 import 'package:js/js_util.dart';
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 ///  Options common to {@link MapboxMap#jumpTo}, {@link MapboxMap#easeTo}, and {@link MapboxMap#flyTo}, controlling the desired location,
 ///  zoom, bearing, and pitch of the camera. All properties are optional, and when a property is omitted, the current

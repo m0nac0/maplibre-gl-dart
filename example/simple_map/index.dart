@@ -1,4 +1,4 @@
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
 
 void main() {
   Mapbox.accessToken =

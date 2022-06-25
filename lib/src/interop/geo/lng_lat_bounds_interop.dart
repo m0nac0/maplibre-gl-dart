@@ -2,7 +2,7 @@
 library mapboxgl.interop.geo.lng_lat_bounds;
 
 import 'package:js/js.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 ///  A `LngLatBounds` object represents a geographical bounding box,
 ///  defined by its southwest and northeast points in longitude and latitude.

@@ -2,7 +2,7 @@
 library mapboxgl.interop.ui.control.navigation_control;
 
 import 'package:js/js.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 @JS()
 @anonymous

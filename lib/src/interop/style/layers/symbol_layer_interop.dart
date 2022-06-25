@@ -1,7 +1,7 @@
 library mapboxgl.interop.style.layers.symbol_layer;
 
 import 'package:js/js_util.dart';
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
 
 class SymbolLayerJsImpl {
   static toJs(SymbolLayer symbolLayer) => jsify(toDict(symbolLayer));

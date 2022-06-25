@@ -3,7 +3,7 @@ library mapboxgl.interop.ui.map;
 
 import 'dart:html';
 import 'package:js/js.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 ///  The `MapboxMap` object represents the map on your page. It exposes methods
 ///  and properties that enable you to programmatically change the map,

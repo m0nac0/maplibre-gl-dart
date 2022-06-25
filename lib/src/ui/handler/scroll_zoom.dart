@@ -2,7 +2,7 @@ library mapboxgl.ui.handler.scroll_zoom;
 
 import 'dart:html';
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class ScrollZoomHandler extends JsObjectWrapper<ScrollZoomHandlerJsImpl> {
   ///  Set the zoom rate of a trackpad

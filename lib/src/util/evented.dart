@@ -2,8 +2,8 @@ library mapboxgl.util.evented;
 
 import 'dart:js';
 
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 typedef Listener = dynamic Function(Event object);
 typedef GeoListener = dynamic Function(dynamic object);

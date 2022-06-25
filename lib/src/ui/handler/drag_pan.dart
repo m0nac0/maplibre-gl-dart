@@ -2,7 +2,7 @@ library mapboxgl.ui.handler.drag_pan;
 
 import 'dart:html';
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class DragPanHandler extends JsObjectWrapper<DragPanHandlerJsImpl> {
   ///  Returns a Boolean indicating whether the "drag to pan" interaction is enabled.

@@ -1,8 +1,8 @@
 library mapboxgl.geo.geojson;
 
 import 'package:js/js_util.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
-import 'package:mapbox_gl_dart/src/utils.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/utils.dart';
 
 class FeatureCollection extends JsObjectWrapper<FeatureCollectionJsImpl> {
   String get type => jsObject.type;

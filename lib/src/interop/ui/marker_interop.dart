@@ -3,7 +3,7 @@ library mapboxgl.interop.ui.marker;
 
 import 'dart:html';
 import 'package:js/js.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 /// Creates a marker component
 /// @param {HTMLElement} [element] DOM element to use as a marker. The default is a light blue, droplet-shaped SVG marker.

@@ -1,6 +1,6 @@
 library mapboxgl.style.evaluation_parameters;
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class EvaluationParameters extends JsObjectWrapper<EvaluationParametersJsImpl> {
   num get zoom => jsObject.zoom;

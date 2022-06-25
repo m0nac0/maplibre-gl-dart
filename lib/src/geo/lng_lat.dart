@@ -1,7 +1,7 @@
 library mapboxgl.geo.lng_lat;
 
-import 'package:mapbox_gl_dart/mapbox_gl_dart.dart';
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 ///  A `LngLat` object represents a given longitude and latitude coordinate, measured in degrees.
 ///

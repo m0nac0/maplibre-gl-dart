@@ -1,6 +1,6 @@
 library mapboxgl.style.style_image;
 
-import 'package:mapbox_gl_dart/src/interop/interop.dart';
+import 'package:maplibre_gl_dart/src/interop/interop.dart';
 
 class StyleImage extends JsObjectWrapper<StyleImageJsImpl> {
   dynamic get data => jsObject.data;
