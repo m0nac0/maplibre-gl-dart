@@ -6,9 +6,9 @@ void main() {
   final map = MapboxMap(
     MapOptions(
       container: 'map',
-      style: 'mapbox://styles/mapbox/dark-v10',
+      style: 'https://demotiles.maplibre.org/style.json',
       center: LngLat(7.68227, 45.06755),
-      zoom: 12,
+      zoom: 6,
     ),
   );
   Future<void>.delayed(const Duration(seconds: 2), () {
