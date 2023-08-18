@@ -1,7 +1,7 @@
 library mapboxgl.ui.map;
 
 import 'dart:html';
-import 'dart:js';
+import 'package:js/js.dart';
 import 'package:js/js_util.dart';
 import 'package:maplibre_gl_dart/mapbox_gl_dart.dart';
 import 'package:maplibre_gl_dart/src/interop/interop.dart';
@@ -43,6 +43,7 @@ class MapboxMap extends Camera {
       MapboxMap.fromJsObject(MapboxMapJsImpl(options.jsObject));
 
   Style get style => Style.fromJsObject(jsObject.style);
+
   dynamic get painter => jsObject.painter;
 
   ///  The map's {@link ScrollZoomHandler}, which implements zooming in and out with a scroll wheel or trackpad.
@@ -491,7 +492,7 @@ class MapboxMap extends Camera {
   ///
   ///  @example
   ///  var styleJson = map.getStyle();
-  dynamic getStyle() => jsObject.getStyle();
+  MapboxStyle getStyle() => MapboxStyle.fromJsObject(jsObject.getStyle());
 
   ///  Returns a Boolean indicating whether the map's style is fully loaded.
   ///
@@ -1017,6 +1018,7 @@ class MapboxMap extends Camera {
   ///  @instance
   ///  @memberof MapboxMap
   bool get showTileBoundaries => jsObject.showTileBoundaries;
+
   set showTileBoundaries(bool value) => jsObject.showTileBoundaries;
 
   ///  Gets and sets a Boolean indicating whether the map will render boxes
@@ -1029,6 +1031,7 @@ class MapboxMap extends Camera {
   ///  @instance
   ///  @memberof MapboxMap
   bool get showCollisionBoxes => jsObject.showCollisionBoxes;
+
   set showCollisionBoxes(bool value) => jsObject.showCollisionBoxes;
 
   ///  Gets and sets a Boolean indicating whether the map should color-code
@@ -1042,6 +1045,7 @@ class MapboxMap extends Camera {
   ///  @instance
   ///  @memberof MapboxMap
   bool get showOverdrawInspector => jsObject.showOverdrawInspector;
+
   set showOverdrawInspector(bool value) => jsObject.showOverdrawInspector;
 
   ///  Gets and sets a Boolean indicating whether the map will
@@ -1052,10 +1056,12 @@ class MapboxMap extends Camera {
   ///  @instance
   ///  @memberof MapboxMap
   bool get repaint => jsObject.repaint;
+
   set repaint(bool value) => jsObject.repaint;
 
   /// show vertices
   bool get vertices => jsObject.vertices;
+
   set vertices(bool value) => jsObject.vertices;
 
   ///  The version of Mapbox GL JS in use as specified in package.json, CHANGELOG.md, and the GitHub release.
@@ -1334,9 +1340,13 @@ class MapOptions extends JsObjectWrapper<MapOptionsJsImpl> {
 
 class RequestParameters extends JsObjectWrapper<RequestParametersJsImpl> {
   String? get url => jsObject.url;
+
   String? get credentials => jsObject.credentials;
+
   dynamic get headers => jsObject.headers;
+
   String? get method => jsObject.method;
+
   bool? get collectResourceTiming => jsObject.collectResourceTiming;
 
   factory RequestParameters({
@@ -1408,4 +1418,16 @@ class IControl extends JsObjectWrapper<IControlJsImpl> {
 
   /// Creates a new IControl from a [jsObject].
   IControl.fromJsObject(IControlJsImpl jsObject) : super.fromJsObject(jsObject);
+}
+
+class MapboxStyle extends JsObjectWrapper<MapboxStyleJsImpl> {
+  MapboxStyle.fromJsObject(MapboxStyleJsImpl jsObject)
+      : super.fromJsObject(jsObject);
+
+  List<dynamic> get layers => jsObject.layers;
+}
+
+@JS('Style')
+class MapboxStyleJsImpl {
+  external List<dynamic> layers;
 }
