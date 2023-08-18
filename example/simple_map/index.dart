@@ -16,6 +16,8 @@ void main() {
     window.console.info(style);
     window.console.info(style.layers);
 
+    //TODO remove style.layers or remove getStyle().layers and have
+    // one consistent interface.
     window.console.info('------------');
     final style2 = map.style;
     window.console.info(style2);
