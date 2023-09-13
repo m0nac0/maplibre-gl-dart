@@ -1,3 +1,7 @@
+| :exclamation:  This repo is now archived, since the code has been moved to https://github.com/maplibre/flutter-maplibre-gl (in https://github.com/maplibre/flutter-maplibre-gl/pull/289)   |
+|-----------------------------------------|
+
+
 # Mapbox-gl wrapper for Dart
 
 Library to use Maplibre GL JS from Dart.
